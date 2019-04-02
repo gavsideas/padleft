@@ -1,0 +1,5 @@
+std::string hello = "Hello world"
+
+auto hello_with_spaces = pl::pad_left(hello, 17);
+
+assert(hello_with_spaces == "   Hello world");
